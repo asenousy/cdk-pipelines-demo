@@ -5,6 +5,7 @@
 *.d.ts
 node_modules
 !pipelines_webinar/canary/nodejs/node_modules
+!apiCall.js
 
 # CDK asset staging directory
 .cdk.staging
