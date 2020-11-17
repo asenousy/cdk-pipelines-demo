@@ -49,12 +49,5 @@ export class PipelineStack extends Stack {
         }
       })
     );
-
-    // Prod
-    //
-    const prodApp = new WebServiceStage(this, 'Prod');
-    const prodStage = pipeline.addApplicationStage(prodApp, {
-      manualApprovals: true
-    });
   }
 }
